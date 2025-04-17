@@ -1,3 +1,11 @@
 .App {
   text-align: center;
 }
+
+.custom-background {
+  background-color: #efeeeb; 
+}
+
+.custom-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
