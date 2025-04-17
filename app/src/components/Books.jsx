@@ -13,7 +13,7 @@ const Books = () => {
       try {
         const response = await fetch("/books.json");
         const data = await response.json();
-        setBooks(data.slice(0, 20)); // Get first 6 books for the moment
+        setBooks(data.slice(0, 20)); 
       } catch (error) {
         console.error("Error fetching books:", error);
         setBooks([]);
